@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let tlCoThe = prompt("Nhập trọng lượng: ");
+      let chieuCao = prompt("Nhập chiều cao: ");
+      let BMI = tlCoThe / (chieuCao * chieuCao);
+      if (BMI < 18.5) {
+        alert("Tình trạng thiếu cân.");
+      } else if (BMI < 24.99) {
+        alert("Tình trạng bình thường.");
+      } else if (BMI < 29.99) {
+        alert("Tình trạng thừa cân.");
+      } else {
+        alert("Tình trạng béo phì.");
+      }
+    </script>
+  </body>
+</html>
